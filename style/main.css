@@ -48,4 +48,31 @@ address {
 
 body {
   font-family: "Roboto";
+}
+
+.header {
+  padding: 26px 0px;
+}
+.header__div {
+  display: flex;
+}
+.header__icon {
+  width: 127px;
+  height: 16px;
+  fill: #0A224A;
+}
+.header__list {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+.header__link {
+  color: #0A224A;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5px;
+}
+.header__button {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
