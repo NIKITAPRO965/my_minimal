@@ -245,4 +245,14 @@ body {
   .products__deskdiv {
     display: block;
   }
+}
+.products__lists {
+  display: flex;
+  gap: 24px;
+}
+.products__textes {
+  color: #0A224A;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
