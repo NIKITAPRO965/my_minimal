@@ -7,9 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href=".//style/main.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container header__div">
         <a class="header__logo" href="./index.html"><svg class="header__icon">
             <use href="./img/symbol-defs.svg#icon-logo"></use>
@@ -122,7 +123,48 @@
 
              </div>
         </section>
-    </main>
+    </main> -->
+
+
+
+
+
+    <section class="calculatetime">
+  <div class="container calculatetime__div">
+
+    <h2 class="calculatetime__title">Калькулятор часу</h2>
+
+    <div class="calculatetime__search-row">
+      <div class="calculatetime__search">
+        <input class="calculatetime__input" id="numInput" type="text" placeholder="Введіть число">
+        <button class="calculatetime__btn" id="searchBtn" type="button"><p class="calculatetime__fake-svg">&#128269</p></svg></button>
+      </div>
+      <p class="calculatetime__fake-svg-second"></p>
+      <div class="calculatetime__timer" id="timer">3 дн. 15:45:01</div>
+    </div>
+    <div class="calculatetime__line"></div>
+</section>
+
+    
+<section class="googledino">
+    <div class="container">
+      <h2 class="googledino__title">Google динозавр</h2>
+    </div>
+    <div class="googledino__line"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="./js/menu.js"></script>
 </body>
 </html>
