@@ -1,6 +1,6 @@
 
 
-.calculatetime__title{
+/* .calculatetime__title{
   display: flex;
   justify-content: center;
   color: #000;
@@ -14,7 +14,6 @@
 display: flex;
 justify-content: center;
 align-items: center;
-justify-content: space-between;
 gap: 30px;
     width: 392.0px;
 margin-left: auto;
@@ -77,7 +76,7 @@ font-weight: 400;
     background-color: #000;
     display: flex;
     justify-content: center;
-    }
+    } */
 
 
 
@@ -117,4 +116,232 @@ font-weight: 400;
     background-color: #000;
     display: flex;
     justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .calc__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 392.0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calc__div2{
+    background: #ddd;
+    border-radius: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+
+    display: flex;
+    align-items: center;
+    padding: 10px 45px 10px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+    overflow: hidden;
+}
+.calc__input{
+    color: #7E7E7E;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    border: none;
+    background: transparent;
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 150px;
+    outline: none;
+
+
+    color: #7E7E7E;
+    font-family: "Montserrat Alternates";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.calc__btn{
+    background: #000;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 30px 30px 0;
+
+    width: 35.0px;
+    height: 35.0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 0 20px 20px 0;
+    background: #000;
+
+}
+.calc__fake-svg{
+    width: 15.0px; 
+    height: 15.0px;
+}
+.calc__fake-svg-second{
+    width: 100.0px;
+    height: 0.0px;
+    outline: solid black 1px;
+}
+.calc__timer{
+    color: #000;
+    font-family: "Montserrat Alternates";
+    font-size: 18px;
+    font-weight: 400;
+} */
+
+
+
+
+
+
+
+
+
+.calculatetime__title{
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.calculatetime__search-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 520px;
+  margin: 0 auto;
+}
+
+/* Поле поиска */
+/* .calculatetime__search{
+  display: flex;
+  align-items: center;
+  background: #E6E6E6;
+  border-radius: 30px;
+  overflow: hidden;
+
+  height: 48px;           
+  width: 300px;           
+}
+
+.calculatetime__input{
+  flex: 1;                
+  border: none;
+  background: transparent;
+  padding: 0 20px;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  color: #7E7E7E;
+  outline: none;
+}
+
+.calculatetime__btn{
+  width: 48px;            
+  height: 48px;
+  flex-shrink: 0;         
+  background: #000;
+  border-radius: 0 30px 30px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+ .calculatetime__search{
+  position: relative;
+  background: #E6E6E6;
+  border-radius: 30px;
+  height: 48px;
+  width: 300px;
+}
+
+.calculatetime__input{
+  position: absolute;
+  left: 20px;
+  right: 48px;
+  top: 0;
+  bottom: 0;
+  border: none;
+  background: transparent;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  color: #7E7E7E;
+  outline: none;
+}
+
+.calculatetime__btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: #000;
+  border-radius: 0 30px 30px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculatetime__icon{
+  width: 22px;
+  height: 22px;
+  fill: white;
+}
+/* Пунктирная линия */
+.calculatetime__separator{
+  width: 140px;
+  height: 1px;
+  border-bottom: 1px dashed #000;
+}
+
+/* Таймер */
+.calculatetime__timer{
+  font-family: "Montserrat Alternates";
+  font-size: 18px;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* Нижняя линия */
+.calculatetime__line{
+  margin: 36px auto 0;
+  width: 536px;
+  height: 1px;
+  background-color: #000;
+}
+
+.container {
+  width: 1265px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
